@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POXO.Gen", "POXO.Gen.csproj", "{1F42CECA-9D93-4AB6-B425-81A9554356D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POXO.Gen", "POXO.Gen.csproj", "{1F42CECA-9D93-4AB6-B425-81A9554356D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POXO.Gen.Core", "..\POXO.Gen.Core\POXO.Gen.Core.csproj", "{FBE4C989-ABFD-45EC-BCC9-828775AF79A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F42CECA-9D93-4AB6-B425-81A9554356D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F42CECA-9D93-4AB6-B425-81A9554356D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F42CECA-9D93-4AB6-B425-81A9554356D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE4C989-ABFD-45EC-BCC9-828775AF79A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE4C989-ABFD-45EC-BCC9-828775AF79A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE4C989-ABFD-45EC-BCC9-828775AF79A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE4C989-ABFD-45EC-BCC9-828775AF79A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
